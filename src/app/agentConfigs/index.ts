@@ -2,11 +2,10 @@ import { AllAgentConfigsType } from "@/app/types";
 import frontDeskAuthentication from "./frontDeskAuthentication";
 import customerServiceRetail from "./customerServiceRetail";
 import simpleExample from "./simpleExample";
+import studyBuddy from "./studyBuddy";
 
 export const allAgentSets: AllAgentConfigsType = {
-  frontDeskAuthentication,
-  customerServiceRetail,
-  simpleExample,
+  studyBuddy,
 };
 
-export const defaultAgentSetKey = "simpleExample";
+export const defaultAgentSetKey = "studyBuddy";
